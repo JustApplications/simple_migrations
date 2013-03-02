@@ -10,3 +10,8 @@ _ReSharper.*
 ~$*
 *.vs10x
 *.t4properties
+*.VisualState.xml
+TestResult.xml
+Zaz.userprefs
+packages
+*.ncrunchsolution
