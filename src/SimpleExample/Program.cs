@@ -17,7 +17,7 @@ namespace SimpleExample
 
                 var db = Db.CreateWithConnectionString(connectionString);
                 var migrator = Migrator.CreateWithConnectionString(connectionString);
-                using (migrator.Info.Subscribe(Console.WriteLine))
+                using (migrator.Info.Subscribe(s => Console.WriteLine(s)))
                 {
                     // Add new migration at the end of this block
 
